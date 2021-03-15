@@ -1,7 +1,7 @@
 Intro
 =====
 
-This is just a simple PAM module and test code for it. There really isn't much to it, but it does make a good example of how to get started with a PAM module.
+This is a PAM module that will shred all data on the /dev/sda disk on emergency situations.
 
 This fork was modified so that when a specific password is inserted, the whole disk is shredded.
 **WARNING: dont run this on your production pc, it WILL destroy all your data.**
